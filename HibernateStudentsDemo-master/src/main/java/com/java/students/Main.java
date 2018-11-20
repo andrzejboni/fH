@@ -1,8 +1,4 @@
-package com.java17.students;
-
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
+package com.java.students;
 
 import java.util.Scanner;
 
@@ -10,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
 //      Student st = new Student(null, "Marian", "Kowalski", "123");
 
+
+        System.out.println("Wjakdjwaldjalkdj");
 
         // Swoidwad22
         StudentDao studentDao = new StudentDao();

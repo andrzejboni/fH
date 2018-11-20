@@ -1,4 +1,4 @@
-package com.java17.students;
+package com.java.students;
 
 import lombok.*;
 

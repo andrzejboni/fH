@@ -1,14 +1,12 @@
-package com.java17.students;
+package com.java.students;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
 
 public class StudentDao {
     public boolean saveStudentIntoDataBase(Student student) {
