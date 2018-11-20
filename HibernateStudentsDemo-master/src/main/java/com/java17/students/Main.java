@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Student st = new Student(null, "Marian", "Kowalski", "123");
+//      Student st = new Student(null, "Marian", "Kowalski", "123");
 
 
         // Swoidwad22
@@ -33,7 +33,7 @@ public class Main {
                 System.out.println("podaj indeks");
                 String indeks = scanner.nextLine();
 
-                studentDao.saveStudentIntoDataBase(new Student(null, imie, nazwisko, indeks));
+//                studentDao.saveStudentIntoDataBase(new Student(null, imie, nazwisko, indeks));
             } else {
                 break;
             }
