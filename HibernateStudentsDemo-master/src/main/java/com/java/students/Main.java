@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//      Student st = new Student(null, "Marian", "Kowalski", "123");
+      Student st = new Student(null, "Marian", "Kowalski", "123");
 
-
-        System.out.println("Wjakdjwaldjalkdj");
 
         // Swoidwad22
         StudentDao studentDao = new StudentDao();
@@ -31,7 +29,7 @@ public class Main {
                 System.out.println("podaj indeks");
                 String indeks = scanner.nextLine();
 
-//                studentDao.saveStudentIntoDataBase(new Student(null, imie, nazwisko, indeks));
+                studentDao.saveStudentIntoDataBase(new Student(null, imie, nazwisko, indeks));
             } else {
                 break;
             }

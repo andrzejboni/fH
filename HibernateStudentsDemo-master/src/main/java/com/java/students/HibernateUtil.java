@@ -12,7 +12,7 @@ public class HibernateUtil {
     private static SessionFactory sessionFactory;
 
 static {
-    //Tworzymy sonie obiekt który pobiera konfiguracje z pliku hibernate cfg xml
+    //Tworzymy sobie obiekt który pobiera konfiguracje z pliku hibernate cfg xml
     StandardServiceRegistry standardServiceRegistry = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
     //metadata to informacje dotyczące plikow. zdanych załadowanych wcześniej
     //tworzymy sobie obiekt metadata.
