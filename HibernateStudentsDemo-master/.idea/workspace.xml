@@ -10,12 +10,6 @@
       <change afterPath="$PROJECT_DIR$/../fakturahibernate/fakturahibernate.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fakturahibernate/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fakturahibernate/src/main/java/Faktury/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fh2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/students/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/students/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/students/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/students/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/students/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/students/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/students/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/students/StudentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/students_hibernate_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/students_hibernate_demo.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -206,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542739201865" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542739345328" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -269,7 +263,8 @@
     <option name="totallyTimeSpent" value="4530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Persistence" side_tool="true" />
       <window_info id="Image Layers" />
