@@ -10,12 +10,12 @@ import java.util.List;
 
 //
 public class StudentDao {
-    public boolean saveStudentIntoDataBase(Student student) {
+    public boolean saveStudentIntoDataBase(BaseEntity entity) {
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Transaction transaction = null;
         try (Session session = sessionFactory.openSession()) {
             transaction = session.beginTransaction();
-            session.save(student);
+            session.save(entity);
             //zamyka transak i zatwierdza zmiany
             transaction.commit();
         } catch (SecurityException se) {

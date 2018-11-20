@@ -1,5 +1,7 @@
 package com.java.students;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -29,7 +31,20 @@ public class Main {
                 System.out.println("podaj indeks");
                 String indeks = scanner.nextLine();
 
-                studentDao.saveStudentIntoDataBase(new Student(null, imie, nazwisko, indeks));
+                System.out.println("Podaj ilosc ocen: ");
+                int iloscOcen = scanner.nextInt();
+                List<Ocena> ocenaList = new ArrayList<>();
+                for (int i = 0; i < iloscOcen; i++) {
+                    System.out.println("Podaj nazwe przedmiotu");
+                    Przedmiot przedmiot = Przedmiot.valueOf(scanner.next());
+
+                    System.out.println("Podaj ocene");
+                    int  ocena= scanner.nextInt();
+
+                    ocenaList.add(new Ocena(null, ocena,przedmiot,null));
+                }
+
+                studentDao.saveStudentIntoDataBase(new Student(null, imie, nazwisko, indeks, null));
             } else {
                 break;
             }

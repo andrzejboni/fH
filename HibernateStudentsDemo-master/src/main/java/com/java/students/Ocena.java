@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Ocena {
+public class Ocena extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)
     private Long id;
