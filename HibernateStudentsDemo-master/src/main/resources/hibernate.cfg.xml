@@ -12,6 +12,7 @@
         <property name="show_sql">true</property>
         <property name="dialect">org.hibernate.dialect.MySQL57Dialect</property>
         <mapping class="com.java.students.Student"/>
+        <mapping class="com.java.students.Ocena"/>
 
     </session-factory>
 </hibernate-configuration>

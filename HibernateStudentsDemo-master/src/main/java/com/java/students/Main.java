@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-      Student st = new Student(null, "Marian", "Kowalski", "123");
+//      Student st = new Student(null, "Marian", "Kowalski", "123");
 
 
         // Swoidwad22
