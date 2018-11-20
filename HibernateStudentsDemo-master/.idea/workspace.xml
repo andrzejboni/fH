@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4f34d9-79f2-47c0-9670-4db7a1522b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/students/BaseEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fakturahibernate/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fakturahibernate/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fakturahibernate/.idea/misc.xml" afterDir="false" />
@@ -12,10 +11,6 @@
       <change afterPath="$PROJECT_DIR$/../fakturahibernate/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fakturahibernate/src/main/java/Faktury/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/students/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/students/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/students/Ocena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/students/Ocena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/students/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/students/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/students/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/students/StudentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/students_hibernate_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/students_hibernate_demo.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +24,7 @@
     <session id="-1372324910">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.opened" value="2" />
@@ -80,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/java/students/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="560">
+              <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -306,7 +301,7 @@
       <option name="presentableId" value="Default" />
       <updated>1542733475956</updated>
       <workItem from="1542733478251" duration="7654000" />
-      <workItem from="1542743475118" duration="520000" />
+      <workItem from="1542743475118" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="awd12">
       <created>1542733564503</created>
@@ -322,11 +317,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542742344572</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Relacje miedzy bazami hibernate">
+      <created>1542744018053</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542744018053</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8174000" />
+    <option name="totallyTimeSpent" value="8220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -474,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/students/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        <state relative-caret-position="560">
+          <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
